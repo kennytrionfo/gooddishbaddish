@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :pics
+
+  resources :dishes
+
   devise_for :users
   resources :restaurants
 
